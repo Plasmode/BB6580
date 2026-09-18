@@ -47,7 +47,14 @@ The ROM program in 22V10 is executed immediately after reset. It continuously sa
 
 ### Software
 ### Projects
-beam racing VGA with 25MHz 6502 is described in three posts starting with this post:
-
-http://forum.6502.org/viewtopic.php?f=6&t=7868&hilit=bb6580&start=15#p105507
+[beam racing VGA](http://forum.6502.org/viewtopic.php?f=6&t=7868&hilit=bb6580&start=15#p105507) with 25MHz 6502 is described in three posts starting with this post:
 ![beamracing](Project/bb6580_rev0_6502_25mhz_beam_racing.jpg)
+
+[Driving NeoPixel](http://forum.6502.org/viewtopic.php?f=6&t=7868&hilit=bb6580&start=15#p105376) with 25MHz 6502 is described in this post:
+![neopixel](Project/bb6580_rev0_6502_neopixel.jpg)
+
+BB6580 with 6502 and [modifications for an external ROM](https://www.retrobrewcomputers.org/doku.php?id=builderpages:plasmo:bb6580:bb6580r0home:bb65rom)
+![extROM](Project/bb6580_rev0_6502_ext_ROM.jpg)
+
+[BB6580 modified for 68008](https://www.retrobrewcomputers.org/doku.php?id=builderpages:plasmo:experimental68k:bb68008)
+![68008mod](Project/bb6580_rev0_68008_mod_topview.jpg)

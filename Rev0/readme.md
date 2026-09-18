@@ -35,12 +35,10 @@ The serial port as implemented in 22V10 is a simple bit-bang serial transmitter 
 The ROM program in 22V10 is executed immediately after reset. It continuously samples data bit 7 (serial receive) for start bit; once start bit is detected, it waits 1-1/2 bit time to read in serial data and afterward sample serial data every bit time to a byte of data and write it into RAM. When specified number of data are received, the processor starts execution of newly received program.
 
 ### Design Information
-- Schematic
-
-- Gerber photoplots
-
+- [Schematic](bb6580_rev0pcb_scm.pdf)
+- [Gerber photoplots](bb6580_r0pcb_gerber.zip)
 - 22V10 Design Files
-  - 22V10 for 25MHz Z80
+  - 22V10 for [25MHz Z80](bb80_gal22v10.zip)
   - 22V10 for 25MHz 6502
   - 22V10 for 7.37MHz 6502
 - Bill of Materials
